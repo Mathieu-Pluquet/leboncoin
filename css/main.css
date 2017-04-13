@@ -124,6 +124,7 @@ header {
   height: 60px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
 }
 
@@ -131,12 +132,12 @@ header {
   display: flex;
   width: 65%;
   justify-content: space-between;
+  align-items: center;
 }
 
 header img {
   width: 140px;
   height: 40px;
-  padding-bottom:50px;
 
 
 }
@@ -151,7 +152,6 @@ header img {
 }
 
 .menu {
-  margin-top: 1.2em;
   margin-left: 1em;
 
 }
@@ -195,24 +195,23 @@ header button {
 }
 
 .annonce1 {
-  width: 290px;
-  height: 40px;
+  width: 260px;
   background-color: #4183d7;
   border-radius: 2%;
   margin-top: 2em;
   text-align: center;
   color: white;
-
+  padding: 15px;
 }
 
 .annonce2 {
-  width: 290px;
-  height: 40px;
+  width: 260px;
   border: 1px solid #4183d7;
   border-radius: 2%;
   margin-top: 2em;
   color: #4183d7;
   text-align: center;
+  padding: 15px;
 }
 
 .maincontainer section {
@@ -225,9 +224,10 @@ header button {
   width: 100%;
 }
 
-.formrégion {
-  width: 338px;
+.formregion {
   height: 50px;
+  width: 95%;
+  margin: auto;
 }
 
 /*footer mobile */
@@ -239,7 +239,6 @@ footer {
 
 footer article {
   display: flex;
-  width: 360px;
   justify-content: center;
   align-items: center;
   justify-content: space-between;
@@ -253,11 +252,12 @@ footer article {
 
 .textelong {
   padding-bottom: 2em;
+  width: 100%;
 }
 
 /*TABLETTE VERSION*/
 
-@media  (min-width:970px) {
+@media  (min-width:768px) {
 .yestablette {
   display: block;
 }
@@ -266,8 +266,27 @@ footer article {
   display: none;
 }
 
-/*footer */
+/*footer*/
 
+.topblack article {
+  width: 100%;
+}
+
+}
+
+
+/*DESKTOP VERSION*/
+
+@media  (min-width:1024px) {
+.yesdesktop {
+  display: block;
+}
+
+.nodesktop {
+  display: none;
+}
+
+/*footer accueil*/
 .grey {
   background-color: #f2f2f2;
   display: flex;
@@ -326,21 +345,41 @@ footer ul {
 footer article {
   display: flex;
   justify-content: space-between;
+
 }
-}
-
-
-/*DESKTOP VERSION*/
-
-@media  (min-width:1024px) {
-.yesdesktop {
-  display: block;
+footer figure {
+  display: flex;
+  margin-top: 2.4em;
 }
 
-.nodesktop {
-  display: none;
+h5 {
+  width: 150px;
+  margin-top: 0.7em;
 }
 
+/*maincontainer accueil */
+
+.maincontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.sec1 {
+  width: 30%;
+  text-align: left;
+  margin-left: 5em;
+}
+
+.nomregion {
+  list-style-type: none;
+  text-align: right;
+}
+
+.maincontainer h2 {
+  text-align: left;
+
+}
 }
 
 
