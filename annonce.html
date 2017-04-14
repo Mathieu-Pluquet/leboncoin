@@ -25,24 +25,29 @@
         <!-- start of header  -->
 
         <header>
+
+          <div class="head">
+            <aside class="menu yestablette nodesktop">
+            <a href="">MENU</a>
+              </aside>
           <aside>
             <figure>
-              <a href=""><img src="https://static.leboncoin.fr/img/logo.svg" alt=""></a>
+              <a href="index.html"><img src="https://static.leboncoin.fr/img/logo.svg" alt=""></a>
             </figure>
           </aside>
 
-          <nav>
+          <nav class="topnav nomobile notablette yesdesktop">
             <ul>
-              <li>ACCUEIL</li>
-              <li>DÉPOSER UNE ANNONCE</li>
-              <li>OFFRES</li>
-              <li>DEMANDES</li>
-              <li>MES ANNONCES</li>
-              <li>BOUTIQUES</li>
+              <a href="annonce.html"><li>DÉPOSER UNE ANNONCE</li></a>
+              <a href="offres.html"><li>OFFRES</li></a>
+              <a href=""><li>DEMANDES</li></a>
+              <a href=""><li>MES ANNONCES</li></a>
+              <a href=""><li>BOUTIQUES</li></a>
             </ul>
           </nav>
+          </div>
 
-          <aside>
+          <aside class="nomobile notablette yesdesktop">
             <button>
               <i class="fa fa-user-o" aria-hidden="true"></i> Se connecter
             </button>
@@ -53,11 +58,13 @@
 
         <!-- start of main container -->
           <div class="maincontainer1">
+            <h2>Déposer une annonce</h2>
+            <hr>
             <section class="annonce">
-              <h2>Votre annonce</h2>
+              <h3>Votre annonce</h3>
 
               <label for="nom">Catégorie*</label>
-                <select name="nom" id="nom">
+                <select class"form1" name="nom" id="nom">
                   <option value="">"Choisissez une catégorie"</option>
                   <optgroup label=" -- EMPLOI --">
                   <option value="">Offres d'emploi</option>
@@ -68,27 +75,25 @@
                 </select>
 
               <label for="nom" >Vous etes un *</label>
-              <input type="radio" name="nom" value="">
-              <label for="nom" >Particulier</label>
-              <input type="radio" name="nom" value="">
-              <label for="nom">Professionnel</label>
+              <input type="radio" name="nom" value=""> Particulier
+              <input type="radio" name="nom" value=""> Professionnel
+
 
               <label for="nom" >Type d'annonce*</label>
-              <input type="radio" name="nom1" value="">
-              <label for="nom1" >Offres</label>
-              <input type="radio" name="nom1" value="">
-              <label for="nom1" >Demandes</label>
+              <input type="radio" name="nom1" value=""> Offres
+              <input type="radio" name="nom1" value=""> Demandes
 
-              <label for="nom" >Titre de l'annonce</label>
-              <input type="text">
+              <label  for="nom" >Titre de l'annonce</label>
+              <input class"form2" type="text">
 
               <label for="nom" >Texte de l'annonce *</label>
-              <textarea name="name" rows="8" cols="80"></textarea>
+              <textarea class"form3" name="name" rows="8" cols="40"></textarea>
 
               <label for="nom" >Prix</label>
               <input type="text" name="nom" value="">
               <p>Photos : Une annonce avec photo est 7 fois plus consultée qu'une annonce sans photo</p>
 
+              <div class=" yestablette imageannonce nomobile">
               <figure>
                 <a href=""><img src="img/annonce1.png" alt=""></a>
               </figure>
@@ -104,26 +109,39 @@
               <figure>
                 <a href=""><img src="img/annonce4.png" alt=""></a>
               </figure>
+              </div>
+
+              <div class="imgannonce notablette">
+              <figure>
+                <a href=""><img src="img/annonce.png" alt=""></a>
+              </figure>
+
+              <figure>
+                <a href=""><img src="img/annonce5.png" alt=""></a>
+              </figure>
+              </div>
             </section>
 
             <section class="localisation">
-              <h2>Localisation</h2>
+              <h3>Localisation</h3>
+                <div class="gauche">
                 <label for="nom">Ville ou code postal *</label>
                 <input type="text" name="nom" value="">
+                <div class="form4">
+                <label for="nom">Adresse</label>    
+                <input class="form4" type="text" name="nom" value="" placeholder="Voie ou numéro + voie">
+                </div>
+                <a class="boutton1"href="">Valider mon adresse</a>
+                <p>Complétez votre adresse et les personnes utilisant la recherche autour de soi trouveront plus facilement votre annonce. Si vous ne souhaitez pas renseigner votre adresse exacte, indiquez votre rue sans donner le numéro. Cette information ne sera conservée que le temps de la publication de votre annonce.</p>
+                </div>
 
-                <label for="nom">Adresse</label>
-                <input type="text" name="nom" value="" placeholder="Voie ou numéro + voie">
-
-                <p>Complétez votre adresse et les personnes utilisant la recherche autour de soi trouveront plus facilement votre annonce.</p>
-                <p>Si vous ne souhaitez pas renseigner votre adresse exacte, indiquez votre rue sans donner le numéro. Cette information ne sera conservée que le temps de la publication de votre annonce.</p>
-
-                <figure>
+                <figure class="imgmap">
                   <img src="img/map.png" alt="">
                 </figure>
             </section>
 
             <section class="informations">
-              <h2>Vos informations</h2>
+              <h3>Vos informations</h3>
               <label for="nom">Pseudo*</label>
               <input type="text" name="nom" value="">
 
@@ -131,17 +149,22 @@
               <input type="text" name="nom" value="">
 
               <label for="nom">Téléphone*</label>
-              <input type="text" name="nom" value="">
-              <input type="checkbox" name="nom" value=""> <span>Masquer le numéro de téléphone dans l'annonce</span>
+              <input type="text" name="nom" value=""> <br>
+              <input type="checkbox" name="nom" value=""> <span>Masquer le numéro de téléphone dans l'annonce</span> <br>
               <input type="checkbox" name="nom" value=""> <span>Je ne souhaite pas être sollicité par des sociétés étrangères au site leboncoin.fr</span>
-              <p>Champs obligatoires *</p>
-              <a href="">Valider</a>
-            </section>
+              </section>
+              <p class="champs">Champs obligatoires *</p>
+              <a class="boutton2" href="">Valider</a>
+
           </div>
         <!-- end of main container  -->
 
         <!-- start of footer  -->
-
+            <footer>
+              <div class="date">
+                <p>leboncoin 2006 - 2017</p>
+              </div>
+            </footer>
         <!-- end of footer -->
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>

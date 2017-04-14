@@ -25,26 +25,32 @@
         <!-- start of header  -->
 
         <header>
-          <div>
-            <a href="">Menu</a>
+
+          <div class="head">
+            <aside class="menu yestablette nodesktop">
+            <a href="">MENU</a>
+              </aside>
           <aside>
             <figure>
-              <a href=""><img src="https://static.leboncoin.fr/img/logo.svg" alt=""></a>
+              <a href="index.html"><img src="https://static.leboncoin.fr/img/logo.svg" alt=""></a>
             </figure>
           </aside>
 
-          <nav>
+          <aside class="menu2 nodesktop">
+            <a href="#"><i class="fa fa-search fa-x3" aria-hidden="true"></i></a>
+          </aside>
+          <nav class="topnav nomobile notablette yesdesktop">
             <ul>
-              <li>ACCUEIL</li>
-              <li>DÉPOSER UNE ANNONCE</li>
-              <li>OFFRES</li>
-              <li>DEMANDES</li>
-              <li>MES ANNONCES</li>
-              <li>BOUTIQUES</li>
+              <a href="annonce.html"><li>DÉPOSER UNE ANNONCE</li></a>
+              <a href="offres.html"><li>OFFRES</li></a>
+              <a href=""><li>DEMANDES</li></a>
+              <a href=""><li>MES ANNONCES</li></a>
+              <a href=""><li>BOUTIQUES</li></a>
             </ul>
           </nav>
           </div>
-          <aside>
+
+          <aside class="nomobile notablette yesdesktop">
             <button>
               <i class="fa fa-user-o" aria-hidden="true"></i> Se connecter
             </button>
@@ -54,7 +60,7 @@
         <!-- end of header -->
 
         <!-- start of main container -->
-          <div class="offres">
+          <div class="offres nomobile ">
             <input type="text" name="nom" value="" placeholder="Que recherchez-vous ?">
 
               <select class="" name="nom">
@@ -75,119 +81,118 @@
                 </select>
               <input type="text" name="nom" value="" placeholder="Ville ou code postal">
           </div>
-
+            <h2 class="t2">Annonces : Ile-de-France </h2>
           <div class="maintcontainer2">
 
-          <aside class="">
-            <h2>Annonces A la Une</h2>
-              <article class="">
-                <a href="">
-                  <figure>
-                    <img src="img/annonce6.jpg" alt="">
-                    <figcaption>
-                      <p>A saisir belle sculpture onyx authentique</p>
-                      <p>5€</p>
-                    </figcaption>
-                  </figure>
-                </a>
-              </article>
-
-              <article class="">
+          <aside class="annonceune">
+            <h3>Annonces A la Une</h3>
+              <article class="art1">
                 <a href="">
                   <figure>
                     <img src="img/annonce7.jpg" alt="">
                     <figcaption>
-                      <p>A saisir belle sculpture onyx authentique</p>
-                      <p>5€</p>
+                      <p class="p1">A saisir belle sculpture onyx</p>
+                      <p class="p2">5€</p>
                     </figcaption>
                   </figure>
                 </a>
               </article>
 
-              <article class="">
+              <article class="art1">
                 <a href="">
                   <figure>
-                    <img src="img/annonce8.jpg" alt="">
+                    <img src="img/annonce7.jpg" alt="">
                     <figcaption>
-                      <p>A saisir belle sculpture onyx authentique</p>
-                      <p>5€</p>
+                      <p class="p1">A saisir belle sculpture onyx</p>
+                      <p class="p2">5€</p>
                     </figcaption>
                   </figure>
                 </a>
               </article>
 
-              <a href="#">En savoir plus</a>
+              <article class="art1 ligne">
+                <a href="">
+                  <figure>
+                    <img src="img/annonce7.jpg" alt="">
+                    <figcaption>
+                      <p class="p1">A saisir belle sculpture onyx</p>
+                      <p class="p2">5€</p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </article>
+                <div class="nomobile">
+              <a  href="#">En savoir plus</a>
+                </div>
           </aside>
 
-          <h2>Annonces : Ile-de-France </h2>
+          <h2 class="nomobile">Annonces : Ile-de-France </h2>
           <div class="galerie">
             <nav>
             <ul>
-              <li><a href="#">Toutes 4 555 006</a></li>
-              <li><a href="">Particuliers 4 300 048</a></li>
-              <li><a href="">Professionnels 254 958</a></li>
+              <li class="li1"><a href="#">Toutes <span class="nomobile">4 555 006</span></a></li>
+              <li class="li2"><a href="">Particuliers <span class="nomobile">4 300 048</span></a></li>
+              <li><a href="">Professionnels <span class="nomobile">254 958</span></a></li>
             </ul>
-
-            <select class="" name="nom">
+            <section class="galerie3">
+            <select class="form5" name="nom">
               <option value="">Trier par : Date</option>
               <option value="">Trier par : Prix</option>
             </select>
             </nav>
 
-            <article class="">
+            <article class="art2">
               <a href="">
                 <figure>
                   <img src="img/offre1.jpg" alt="">
                 </figure>
                 <section>
                   <h3>Canapé Chesterfield Cuir Fleur Vintage Neuf</h3>
-                  <i class="fa fa-heart-o" aria-hidden="true"></i>
                   <p>Ameublement</p>
                   <p>Paris 13ème</p>
-                  <span>1 500 €</span>
-                  <p>Aujourd'hui, 13:21</p>
+                  <p class="p2">1 500 €</p>
+                  <p>Aujourd'hui, 13:21 <i class="fa fa-heart-o" aria-hidden="true"></i></p>
                 </section>
               </a>
             </article>
 
-            <article class="">
+            <article class="art2">
               <a href="">
                 <figure>
                   <img src="img/offre1.jpg" alt="">
                 </figure>
                 <section>
                   <h3>Canapé Chesterfield Cuir Fleur Vintage Neuf</h3>
-                  <i class="fa fa-heart-o" aria-hidden="true"></i>
                   <p>Ameublement</p>
                   <p>Paris 13ème</p>
-                  <p>1 500 €</p>
-                  <p>Aujourd'hui, 13:21</p>
+                  <p class="p2">1 500 €</p>
+                  <p>Aujourd'hui, 13:21 <i class="fa fa-heart-o" aria-hidden="true"></i></p>
                 </section>
               </a>
             </article>
 
-            <article class="">
+            <article class="art2">
               <a href="">
                 <figure>
                   <img src="img/offre1.jpg" alt="">
                 </figure>
                 <section>
                   <h3>Canapé Chesterfield Cuir Fleur Vintage Neuf</h3>
-                  <i class="fa fa-heart-o" aria-hidden="true"></i>
                   <p>Ameublement</p>
                   <p>Paris 13ème</p>
-                  <p>1 500 €</p>
-                  <p>Aujourd'hui, 13:21</p>
+                  <p class="p2">1 500 €</p>
+                  <p>Aujourd'hui, 13:21 <i class="fa fa-heart-o" aria-hidden="true"></i></p>
                 </section>
               </a>
             </article>
+          </section>
           </div>
           </div>
         <!-- end of main container  -->
 
         <!-- start of footer  -->
 
-        <div class="grey">
+        <div class="grey nomobile">
           <ul>
             <li><a href="">VEHICULES</a></li>
             <li><a href="">Voitures</a></li>
