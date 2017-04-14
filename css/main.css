@@ -617,6 +617,20 @@ padding-bottom: 1em;
 
 /*page index*/
 
+.minicontainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sec1 {
+  width: 45%;
+}
+
+.France figure, .France  {
+  width: 50%;
+  margin: 0!important;
+  padding: 0;
+}
 
 
 }
@@ -739,7 +753,6 @@ h5 {
 .sec1 {
   width: 30%;
   text-align: left;
-  margin-left: 5em;
 }
 
 .nomregion {
@@ -750,6 +763,26 @@ h5 {
 .maincontainer h2 {
   text-align: left;
 
+}
+
+/*index*/
+
+.sec1 {
+  width: 50%;
+}
+
+.France figure, .France  {
+  width: 40%;
+  margin: 0!important;
+  padding: 0;
+}
+
+.textelong {
+  padding-top: 2em;
+}
+
+.sec1 h2 {
+  width: 65%;
 }
 }
 
