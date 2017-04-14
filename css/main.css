@@ -149,6 +149,7 @@ header img {
   color: #F56B2A;
   font-size:0.9rem;
 
+
 }
 
 .menu {
@@ -163,6 +164,7 @@ header img {
   border-radius: 10%;
   color: #F56B2A;
   text-align: center;
+
 }
 /*maincontainer mobile */
 
@@ -197,6 +199,9 @@ header img {
   padding: 15px;
 }
 
+.sec1 span {
+  color: #f56b2a;
+}
 .maincontainer section {
   display: flex;
   flex-direction: column;
@@ -230,6 +235,7 @@ footer article {
 
 .date {
   margin-left: 10px;
+  line-height: 70px;
 
 }
 
@@ -240,6 +246,13 @@ footer article {
 
 /*page annonce mobile*/
 
+.gauche {
+  width: 90%;
+}
+
+.info {
+  margin-left: 20px;
+}
 .maincontainer1 h2 {
   color: #989898;
 
@@ -330,10 +343,11 @@ footer article {
 
 
 .localisation p {
-  width: 95%;
   margin: auto;
   background-color: #A7D7EF;
   border-radius: 5px;
+  margin-bottom: 2em;
+  font-size: 14px;
 }
 
 .imgmap {
@@ -343,6 +357,15 @@ footer article {
 .localisation img {
   display: block;
   margin: auto;
+}
+
+.localisation figure {
+  width: 30%;
+  margin: 0;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+
 }
 .maincontainer1 input[type="text"] {
  width: 95%;
@@ -525,6 +548,8 @@ footer article {
   width: 100%;
 }
 
+/*page annonce*/
+
 .imageannonce {
   display: flex;
 justify-content: space-around;
@@ -537,15 +562,14 @@ padding-bottom: 1em;
 }
 
 .gauche {
-  width: 50%;
+  width: 65%;
+  margin-left: 20px;
 
 }
-.gauche, .imgmap {
-  display: inline-block;
-}
+
 
 .form4 input[type="text"] {
- width: 150%;
+ width: 60%;
  height: 40px;
  border-radius: 5px;
 
@@ -564,9 +588,37 @@ padding-bottom: 1em;
   margin-left: 5em;
 }
 
-.form4, .boutton1 {
-  display: inline-block;
+
+.gauche {
+  display: flex;
+  flex-wrap: wrap;
 }
+
+.localisation {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.localisation h3 {
+  width: 100%;
+}
+
+.form4 {
+  width: 100%;
+  display: flex;
+}
+
+.boutton2 {
+  width: 15%;
+  margin: 0;
+  margin-bottom: 2em;
+
+}
+
+/*page index*/
+
+
+
 }
 
 
