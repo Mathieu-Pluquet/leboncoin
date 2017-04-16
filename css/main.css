@@ -675,9 +675,34 @@ header button {
 .grey {
   background-color: #f2f2f2;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 10em;
+  justify-content: center;
+  font-size: 14px;
+  padding-bottom: 1.5em;
+}
+
+
+.grey a {
+    color: #369;
+}
+
+.div1, .div2, .div3, .div4 {
+  margin-left: 1em;
+}
+p, .p-like, ul, ol, dl, li, blockquote, pre, td, th, label, textarea, caption, details, figure {
+	line-height: 1.5;
+}
+
+.grey a:hover {
+  color: #3873bd;
+  text-decoration: underline;
+}
+
+
+.ligne {
+  border-bottom: 1px solid lightgrey;
+  width: 250px;
+  font-size: 11px;
+  font-weight: bold;
 }
 
 .grey li, .black li {
