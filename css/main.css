@@ -918,6 +918,40 @@ h5 {
 .sec1 h2 {
   width: 65%;
 }
+
+/*page annonce */
+
+.info1 {
+  width: 50%;
+}
+
+.imageannonce {
+  width: 60%;
+}
+
+.phrasephoto {
+  margin-top: 1.5em;
+}
+
+.info2 {
+  width: 23%;
+}
+
+
+.date p {
+  text-align: left;
+  width: 96%;
+  margin: auto;
+
+}
+
+.check1 {
+  margin-top: 10px;
+}
+
+.tel {
+  margin-bottom: 10px;
+}
 }
 
 

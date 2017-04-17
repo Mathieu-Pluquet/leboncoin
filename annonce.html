@@ -64,6 +64,7 @@
             <section class="annonce">
               <h3>Votre annonce</h3>
               <div class="info">
+                <div class="info1">
               <label for="nom">Catégorie*</label>
                 <select class"form1" name="nom" id="nom">
                   <option value="">"Choisissez une catégorie"</option>
@@ -92,8 +93,8 @@
 
               <label for="nom" >Prix</label>
               <input type="text" name="nom" value="">
-              <p>Photos : Une annonce avec photo est 7 fois plus consultée qu'une annonce sans photo</p>
-
+              </div>
+              <p class="phrasephoto">Photos : Une annonce avec photo est 7 fois plus consultée qu'une annonce sans photo</p>
               <div class=" yestablette imageannonce nomobile">
               <figure>
                 <a href=""><img src="img/annonce1.png" alt=""></a>
@@ -145,8 +146,7 @@
             <section class="informations">
               <h3>Vos informations</h3>
               <div class="info">
-
-
+                <div class="info2">
               <label for="nom">Pseudo*</label>
               <input type="text" name="nom" value="">
 
@@ -154,9 +154,10 @@
               <input type="text" name="nom" value="">
 
               <label for="nom">Téléphone*</label>
-              <input type="text" name="nom" value=""> <br>
+              <input class="tel" type="text" name="nom" value=""> <br>
+              </div>
               <input type="checkbox" name="nom" value=""> <span>Masquer le numéro de téléphone dans l'annonce</span> <br>
-              <input type="checkbox" name="nom" value=""> <span>Je ne souhaite pas être sollicité par des sociétés étrangères au site leboncoin.fr</span>
+              <input class="check1" type="checkbox" name="nom" value=""> <span>Je ne souhaite pas être sollicité par des sociétés étrangères au site leboncoin.fr</span>
               </section>
               <p class="champs">Champs obligatoires *</p>
               <a class="boutton2" href="">Valider</a>
@@ -165,11 +166,11 @@
         <!-- end of main container  -->
 
         <!-- start of footer  -->
-            <footer>
-              <div class="date">
-                <p>leboncoin 2006 - 2017</p>
-              </div>
-            </footer>
+        <footer>
+          <div class="date">
+            <p>leboncoin 2006 - 2017</p>
+          </div>
+        </footer>
         <!-- end of footer -->
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
