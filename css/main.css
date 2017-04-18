@@ -130,7 +130,7 @@ header {
 
 .head {
   display: flex;
-  width: 65%;
+  width: 98%;
   justify-content: space-between;
   align-items: center;
 }
@@ -821,18 +821,50 @@ header ul {
 
 header li {
 padding: 1em;
-padding-left: 3em;
 }
 
-header button {
+header .connexion {
   height: 60px;
   margin-right: 20px;
   background-color:  #F56B2A;
   color: white;
-  width: 130px;
-  border-right: 2px solid white;
-  border-left: 2px solid white;
+  width: 160px;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  text-align: center;
+  line-height: 60px;
+}
 
+
+header .connexion:hover {
+  background-color: white;
+  color: orange;
+}
+
+
+
+header{
+  height: 60px;
+  width: 1066px;
+  margin: auto;
+}
+
+header figure {
+  margin: 0;
+}
+
+.topnav {
+  text-align: left;
+  margin-right: 120px;
+}
+
+.headerall {
+  background-color:#F56B2A;
+}
+
+.ezz {
+  background-color:#F56B2A;
+  width: 100%;
 }
 /*footer accueil*/
 .grey {
@@ -978,6 +1010,7 @@ h5 {
   list-style-type: none;
   text-align: right;
   margin-top: 30px;
+  margin-right: 40px;
 }
 
 .nomregion a:hover {
@@ -993,7 +1026,7 @@ h5 {
 
 .sec1 {
   width: 40%;
-  margin-left: 12px;
+  margin-left: 20px;
 }
 
 .France figure, .France  {
@@ -1004,6 +1037,8 @@ h5 {
 
 .textelong {
   padding-top: 2em;
+  width: 90%;
+  margin: auto;
 }
 
 /*page annonce */
@@ -1139,19 +1174,35 @@ margin-bottom: 10px;
 /*page index */
 
 .maincontainer {
-  width: 1080px;
+  width: 1190px;
   margin: auto;
 }
 
-.maincontainer aside {
-  margin-left: 70px;
-}
 
 .maincontainer img {
   height: auto;
   width: 130%;
   margin-top: 35px;
   margin-left: 80px;
+}
+
+.annonceall {
+  width: 1066px;
+  margin: auto;
+}
+
+.maincontainer1 {
+  width: 1066px;
+  margin: auto;
+
+}
+
+.imageannonce {
+  margin-left: 45px;
+}
+
+.imageannonce figure {
+  margin-left: 15px;
 }
 
 }
