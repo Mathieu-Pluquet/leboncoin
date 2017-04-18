@@ -684,6 +684,7 @@ padding-bottom: 1em;
 .minicontainer {
   display: flex;
   flex-wrap: wrap;
+  width:750px;
 }
 
 .sec1 {
@@ -991,7 +992,8 @@ h5 {
 /*index*/
 
 .sec1 {
-  width: 50%;
+  width: 40%;
+  margin-left: 12px;
 }
 
 .France figure, .France  {
@@ -1002,12 +1004,6 @@ h5 {
 
 .textelong {
   padding-top: 2em;
-  width: 85%;
-  margin: auto;
-}
-
-.sec1 h2 {
-  width: 65%;
 }
 
 /*page annonce */
@@ -1031,9 +1027,25 @@ h5 {
 
 .date p {
   text-align: left;
-  width: 96%;
-  margin: auto;
+  width: 200px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 12px;
+}
 
+footer article {
+  width: 1050px;
+  margin: auto;
+}
+
+footer h5 {
+  font-size: 12px;
+}
+
+footer figure {
+  margin:0;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .check1 {
@@ -1120,8 +1132,26 @@ margin-bottom: 10px;
 }
 
 .maincontaineroffres {
-  width: 85%;
+  width: 1066px;
   margin: auto;
+}
+
+/*page index */
+
+.maincontainer {
+  width: 1080px;
+  margin: auto;
+}
+
+.maincontainer aside {
+  margin-left: 70px;
+}
+
+.maincontainer img {
+  height: auto;
+  width: 130%;
+  margin-top: 35px;
+  margin-left: 80px;
 }
 
 }
