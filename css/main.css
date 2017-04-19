@@ -186,7 +186,7 @@ header img {
   margin-top: 2em;
   text-align: center;
   color: white;
-  padding: 15px;
+  padding: 12px;
   border-radius: 5px;
 }
 
@@ -194,10 +194,10 @@ header img {
   width: 260px;
   border: 1px solid #4183d7;
   border-radius: 2%;
-  margin-top: 2em;
+  margin-top: 1.2em;
   color: #4183d7;
   text-align: center;
-  padding: 15px;
+  padding: 12px;
   border-radius: 5px;
 }
 
@@ -470,6 +470,11 @@ footer article {
   margin-top: 8px;
 }
 
+.galerie li a:hover {
+  color: #f56b2a;
+  text-decoration: underline;
+}
+
 .coeur1 i {
   color: lightgrey;
 }
@@ -522,6 +527,15 @@ footer article {
   color: #f56b2a;
 }
 
+.art2 a:hover, .art1 a:hover {
+  background-color: #f2f2f2;
+  transition: 0.5s;
+}
+
+.offres a:hover {
+  background-color: #4c94ef;
+  transition: 0.5s;
+}
 
 /*galerie mobile */
 
@@ -556,9 +570,12 @@ footer article {
   color: #1a1a1a;
   font-size: 14px;
   font-family: "OpenSansSemiBold",sans-serif;
-
-
 }
+
+.galerie .li2:hover, .galerie li:hover {
+  background-color: white;
+}
+
 
 .galerie .li1 {
   background-color: white;
@@ -764,9 +781,7 @@ padding-bottom: 1em;
 .galerie li a:hover {
   background-color: white;
 }
-.galerie li a:hover {
-  color: #f56b2a;
-}
+
 
 .galerie li {
   width: 140px;
@@ -1115,6 +1130,11 @@ h5 {
   margin-bottom: 10px;
   margin-top: 10px;
   font-size: 12px;
+  line-height: 40px;
+}
+
+.dateannonce {
+  margin-left: 100px;
 }
 
 footer article {
@@ -1291,6 +1311,7 @@ margin-bottom: 10px;
 .art1 img {
   margin-left: 20px;
 }
+
 }
 
 
