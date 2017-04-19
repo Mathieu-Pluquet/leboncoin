@@ -758,7 +758,6 @@ padding-bottom: 1em;
 .art2 a {
   height: 166px;
   display: flex;
-  justify-content: center;
   align-items: center;
 
 }
@@ -788,6 +787,19 @@ padding-bottom: 1em;
 .p2 {
   font-weight: bold;
   font-size: 20px;
+}
+
+.coeur {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: right;
+}
+
+.cacaa {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
 }
 
 
@@ -1205,6 +1217,14 @@ margin-bottom: 10px;
   margin-left: 15px;
 }
 
+/*page offres menu */
+
+.galerie .li2{
+  width: 205px;
+}
+.galerie li {
+  width: 216px;
+}
 }
 
 
