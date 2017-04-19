@@ -187,6 +187,7 @@ header img {
   text-align: center;
   color: white;
   padding: 15px;
+  border-radius: 5px;
 }
 
 .annonce2 {
@@ -197,6 +198,11 @@ header img {
   color: #4183d7;
   text-align: center;
   padding: 15px;
+  border-radius: 5px;
+}
+
+.menu3 {
+  opacity: 0;
 }
 
 .sec1 span {
@@ -211,6 +217,16 @@ header img {
   height: auto;
   width: 100%;
   margin-top: 35px;
+}
+
+.maincontainer .annonce1:hover{
+  background-color: #4c94ef;
+  transition: 0.5s;
+}
+
+.maincontainer .annonce2:hover {
+  background-color:  #d9e6f7;
+  transition: 0.5s;
 }
 
 .textelong a:hover{
@@ -354,10 +370,6 @@ footer article {
   font-size: 14px;
 }
 
-.imgmap {
-  border: 1px solid lightgrey;
-}
-
 .localisation img {
   display: block;
   margin: auto;
@@ -456,6 +468,10 @@ footer article {
   color: #666;
   font-size: 14px;
   margin-top: 8px;
+}
+
+.coeur1 i {
+  color: lightgrey;
 }
 /*aside mobile */
 .annonceune {
@@ -631,7 +647,6 @@ padding-bottom: 1em;
 
 }
 
-
 .form4 input[type="text"] {
  width: 60%;
  height: 40px;
@@ -676,7 +691,10 @@ padding-bottom: 1em;
   width: 15%;
   margin: 0;
   margin-bottom: 2em;
+}
 
+.imgmap {
+  border: 1px solid lightgrey;
 }
 
 /*page index*/
@@ -696,6 +714,28 @@ padding-bottom: 1em;
   margin: 0!important;
   padding: 0;
 }
+
+.annonce2, .annonce1 {
+  padding: 10px;
+  width: 300px;
+  height: 20px;
+  line-height:20px;
+  border-radius: 5px;
+}
+
+.annonce2 i {
+  line-height: 50px;
+}
+
+.maincontainer h2 {
+  text-align: left;
+}
+
+.maincontainer img {
+  margin-left: 25px;
+}
+
+
 
 /*page offres */
 
@@ -795,7 +835,7 @@ padding-bottom: 1em;
   text-align: right;
 }
 
-.cacaa {
+.coeur1 {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -806,7 +846,7 @@ padding-bottom: 1em;
 }
 /*DESKTOP VERSION*/
 
-@media  (min-width:1024px) {
+@media  (min-width:1200px) {
 .yesdesktop {
   display: block;
 }
@@ -1029,11 +1069,6 @@ h5 {
   color: #F56B2A;
 }
 
-.maincontainer h2 {
-  text-align: left;
-
-}
-
 /*index*/
 
 .sec1 {
@@ -1052,6 +1087,8 @@ h5 {
   width: 90%;
   margin: auto;
 }
+
+
 
 /*page annonce */
 
@@ -1195,7 +1232,11 @@ margin-bottom: 10px;
   height: auto;
   width: 130%;
   margin-top: 35px;
-  margin-left: 80px;
+  margin-left: 70px;
+}
+
+.maincontainer h2 {
+  width: 350px;
 }
 
 .annonceall {
@@ -1217,6 +1258,8 @@ margin-bottom: 10px;
   margin-left: 15px;
 }
 
+
+
 /*page offres menu */
 
 .galerie .li2{
@@ -1224,6 +1267,29 @@ margin-bottom: 10px;
 }
 .galerie li {
   width: 216px;
+}
+
+.menuhead {
+  display: flex;
+}
+
+.galerie3 {
+  border: 0;
+  margin-left: 10px;
+  margin-top: 21px;
+}
+
+.form5 {
+  width: 140px;
+  height: 40px;
+}
+
+.coeur {
+  margin-left: 300px;
+}
+
+.art1 img {
+  margin-left: 20px;
 }
 }
 
