@@ -880,6 +880,14 @@ footer .logo1 {
         color: white;
         font-size: 12px;
     }
+
+    .connexion a {
+      color: white;
+    }
+
+    .connexion a:hover {
+      color: #F56B2A;
+    }
     header li {
         padding: 1em;
     }
